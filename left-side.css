@@ -1,0 +1,62 @@
+/*Left Side of the component*/
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 30px;
+
+}
+
+.result-title {
+    margin: 20px;
+    font-family: Anton;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.total-score {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.score {
+font-family: Hanken Grotesk;
+color: white;
+margin: 5px;
+}
+
+.of-100 {
+ color: rgba(255, 255, 255, 0.678);
+}
+
+.great {
+    font-family: bold;
+    margin: 10px;
+    color: white;
+}
+
+.you-scored-higher {
+    display: flex;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.687w);
+}
+

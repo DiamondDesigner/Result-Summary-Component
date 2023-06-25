@@ -1,0 +1,62 @@
+/*Right Side of the component*/
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.reaction {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: hsl(166, 94%, 82%);
+    background-color: hsl(166, 94%, 82%, 0.1);
+}
+
+.visual {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.subject-container {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.subject-container-two {
+    margin-left: 0px;
+    margin-right: 33px;
+}
+
+.score-container {
+    margin-right: 0px;
+}
+
+.continue {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+}

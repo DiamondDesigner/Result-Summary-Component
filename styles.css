@@ -1,0 +1,18 @@
+/*After seeing the large size of the css file i decided to divide it into three parts to make it more organized*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
